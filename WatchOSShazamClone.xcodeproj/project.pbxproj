@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34CCEE3F26AE74E0006BA3E8 /* WatchOSShazamClone WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 34CCEE3E26AE74E0006BA3E8 /* WatchOSShazamClone WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34CCEE4526AE74E0006BA3E8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34CCEE4326AE74E0006BA3E8 /* Interface.storyboard */; };
+		34CCEE4726AE74E1006BA3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CCEE4626AE74E1006BA3E8 /* Assets.xcassets */; };
+		34CCEE4D26AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 34CCEE4C26AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34CCEE5226AE74E1006BA3E8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCEE5126AE74E1006BA3E8 /* InterfaceController.swift */; };
+		34CCEE5426AE74E2006BA3E8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCEE5326AE74E2006BA3E8 /* ExtensionDelegate.swift */; };
+		34CCEE5626AE74E2006BA3E8 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCEE5526AE74E2006BA3E8 /* ComplicationController.swift */; };
+		34CCEE5826AE74E2006BA3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CCEE5726AE74E2006BA3E8 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34CCEE4026AE74E0006BA3E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CCEE3426AE74DF006BA3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CCEE3D26AE74DF006BA3E8;
+			remoteInfo = "WatchOSShazamClone WatchKit App";
+		};
+		34CCEE4E26AE74E1006BA3E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34CCEE3426AE74DF006BA3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CCEE4B26AE74E1006BA3E8;
+			remoteInfo = "WatchOSShazamClone WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34CCEE5F26AE74E2006BA3E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				34CCEE4D26AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CCEE6326AE74E2006BA3E8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				34CCEE3F26AE74E0006BA3E8 /* WatchOSShazamClone WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34CCEE3A26AE74DF006BA3E8 /* WatchOSShazamClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchOSShazamClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CCEE3E26AE74E0006BA3E8 /* WatchOSShazamClone WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchOSShazamClone WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CCEE4426AE74E0006BA3E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		34CCEE4626AE74E1006BA3E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34CCEE4C26AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchOSShazamClone WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CCEE5126AE74E1006BA3E8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		34CCEE5326AE74E2006BA3E8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		34CCEE5526AE74E2006BA3E8 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		34CCEE5726AE74E2006BA3E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34CCEE5926AE74E2006BA3E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34CCEE4926AE74E1006BA3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34CCEE3326AE74DF006BA3E8 = {
+			isa = PBXGroup;
+			children = (
+				34CCEE4226AE74E0006BA3E8 /* WatchOSShazamClone WatchKit App */,
+				34CCEE5026AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension */,
+				34CCEE3B26AE74DF006BA3E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34CCEE3B26AE74DF006BA3E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34CCEE3A26AE74DF006BA3E8 /* WatchOSShazamClone.app */,
+				34CCEE3E26AE74E0006BA3E8 /* WatchOSShazamClone WatchKit App.app */,
+				34CCEE4C26AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34CCEE4226AE74E0006BA3E8 /* WatchOSShazamClone WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				34CCEE4326AE74E0006BA3E8 /* Interface.storyboard */,
+				34CCEE4626AE74E1006BA3E8 /* Assets.xcassets */,
+			);
+			path = "WatchOSShazamClone WatchKit App";
+			sourceTree = "<group>";
+		};
+		34CCEE5026AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				34CCEE5126AE74E1006BA3E8 /* InterfaceController.swift */,
+				34CCEE5326AE74E2006BA3E8 /* ExtensionDelegate.swift */,
+				34CCEE5526AE74E2006BA3E8 /* ComplicationController.swift */,
+				34CCEE5726AE74E2006BA3E8 /* Assets.xcassets */,
+				34CCEE5926AE74E2006BA3E8 /* Info.plist */,
+			);
+			path = "WatchOSShazamClone WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34CCEE3926AE74DF006BA3E8 /* WatchOSShazamClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CCEE6426AE74E2006BA3E8 /* Build configuration list for PBXNativeTarget "WatchOSShazamClone" */;
+			buildPhases = (
+				34CCEE3826AE74DF006BA3E8 /* Resources */,
+				34CCEE6326AE74E2006BA3E8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CCEE4126AE74E0006BA3E8 /* PBXTargetDependency */,
+			);
+			name = WatchOSShazamClone;
+			productName = WatchOSShazamClone;
+			productReference = 34CCEE3A26AE74DF006BA3E8 /* WatchOSShazamClone.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		34CCEE3D26AE74DF006BA3E8 /* WatchOSShazamClone WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CCEE6026AE74E2006BA3E8 /* Build configuration list for PBXNativeTarget "WatchOSShazamClone WatchKit App" */;
+			buildPhases = (
+				34CCEE3C26AE74DF006BA3E8 /* Resources */,
+				34CCEE5F26AE74E2006BA3E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34CCEE4F26AE74E1006BA3E8 /* PBXTargetDependency */,
+			);
+			name = "WatchOSShazamClone WatchKit App";
+			productName = "WatchOSShazamClone WatchKit App";
+			productReference = 34CCEE3E26AE74E0006BA3E8 /* WatchOSShazamClone WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		34CCEE4B26AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CCEE5C26AE74E2006BA3E8 /* Build configuration list for PBXNativeTarget "WatchOSShazamClone WatchKit Extension" */;
+			buildPhases = (
+				34CCEE4826AE74E1006BA3E8 /* Sources */,
+				34CCEE4926AE74E1006BA3E8 /* Frameworks */,
+				34CCEE4A26AE74E1006BA3E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchOSShazamClone WatchKit Extension";
+			productName = "WatchOSShazamClone WatchKit Extension";
+			productReference = 34CCEE4C26AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34CCEE3426AE74DF006BA3E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					34CCEE3926AE74DF006BA3E8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					34CCEE3D26AE74DF006BA3E8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					34CCEE4B26AE74E1006BA3E8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 34CCEE3726AE74DF006BA3E8 /* Build configuration list for PBXProject "WatchOSShazamClone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34CCEE3326AE74DF006BA3E8;
+			productRefGroup = 34CCEE3B26AE74DF006BA3E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34CCEE3926AE74DF006BA3E8 /* WatchOSShazamClone */,
+				34CCEE3D26AE74DF006BA3E8 /* WatchOSShazamClone WatchKit App */,
+				34CCEE4B26AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34CCEE3826AE74DF006BA3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CCEE3C26AE74DF006BA3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CCEE4726AE74E1006BA3E8 /* Assets.xcassets in Resources */,
+				34CCEE4526AE74E0006BA3E8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34CCEE4A26AE74E1006BA3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CCEE5826AE74E2006BA3E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34CCEE4826AE74E1006BA3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CCEE5426AE74E2006BA3E8 /* ExtensionDelegate.swift in Sources */,
+				34CCEE5226AE74E1006BA3E8 /* InterfaceController.swift in Sources */,
+				34CCEE5626AE74E2006BA3E8 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34CCEE4126AE74E0006BA3E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CCEE3D26AE74DF006BA3E8 /* WatchOSShazamClone WatchKit App */;
+			targetProxy = 34CCEE4026AE74E0006BA3E8 /* PBXContainerItemProxy */;
+		};
+		34CCEE4F26AE74E1006BA3E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34CCEE4B26AE74E1006BA3E8 /* WatchOSShazamClone WatchKit Extension */;
+			targetProxy = 34CCEE4E26AE74E1006BA3E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34CCEE4326AE74E0006BA3E8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34CCEE4426AE74E0006BA3E8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34CCEE5A26AE74E2006BA3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34CCEE5B26AE74E2006BA3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34CCEE5D26AE74E2006BA3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchOSShazamClone WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchOSShazamClone WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.WatchOSShazamClone.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		34CCEE5E26AE74E2006BA3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchOSShazamClone WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchOSShazamClone WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.WatchOSShazamClone.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		34CCEE6126AE74E2006BA3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WatchOSShazamClone_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchOSShazamClone WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.WatchOSShazamClone.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		34CCEE6226AE74E2006BA3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = WatchOSShazamClone_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "WatchOSShazamClone WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.WatchOSShazamClone.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		34CCEE6526AE74E2006BA3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.WatchOSShazamClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		34CCEE6626AE74E2006BA3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.WatchOSShazamClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34CCEE3726AE74DF006BA3E8 /* Build configuration list for PBXProject "WatchOSShazamClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CCEE5A26AE74E2006BA3E8 /* Debug */,
+				34CCEE5B26AE74E2006BA3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CCEE5C26AE74E2006BA3E8 /* Build configuration list for PBXNativeTarget "WatchOSShazamClone WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CCEE5D26AE74E2006BA3E8 /* Debug */,
+				34CCEE5E26AE74E2006BA3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CCEE6026AE74E2006BA3E8 /* Build configuration list for PBXNativeTarget "WatchOSShazamClone WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CCEE6126AE74E2006BA3E8 /* Debug */,
+				34CCEE6226AE74E2006BA3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CCEE6426AE74E2006BA3E8 /* Build configuration list for PBXNativeTarget "WatchOSShazamClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CCEE6526AE74E2006BA3E8 /* Debug */,
+				34CCEE6626AE74E2006BA3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34CCEE3426AE74DF006BA3E8 /* Project object */;
+}
